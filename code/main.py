@@ -52,7 +52,17 @@ def add_transaction():
                  (data['amount'], data['category'], data['date'], data['type'], data['description']))
     conn.commit()
     conn.close()
-    return 'Transaction added!'
+    return '''
+        <html>
+            <head>
+                <title>Transaction Added!</title>
+            </head>
+            <body style="background-color: #f0f4f8; font-family: Arial, sans-serif; text-align: center; padding-top: 50px;">
+                <h1 style="color: #2c3e50;">You've commited! One step closer towards financial freedom!</h1>
+                <p style="font-size: 18px; color: #34495e;">To add more transactions, go to <a href="/add_transactions_page" style="color: #2980b9; text-decoration: none;">Add Transactions</a>.</p>
+            </body>
+        </html>
+    '''
 
 if __name__ == '__main__':
     app.run(debug=True)
