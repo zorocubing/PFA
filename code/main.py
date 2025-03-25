@@ -38,7 +38,7 @@ def form():
                     <input name="date" type="date" placeholder="Date" style="margin: 5px; padding: 5px;"><br>
                     <input name="type" type="text" placeholder="Type" style="margin: 5px; padding: 5px;"><br>
                     <input name="description" type="text" placeholder="Description" style="margin: 5px; padding: 5px;"><br>
-                    <button type="submit" style="background-color: #2c3e50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Add Transaction</button>
+                    <button type="submit" style="background-color: #2980b9; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Add Transaction</button>
                 </form>
             </body>
         </html>
