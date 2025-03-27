@@ -1,5 +1,4 @@
 # How to use PFA
-PFA stands for Personal Financial App essentially an app that helps you with your finances
 
 There is two ways to use PFA
 This method is public friendly and doesn't require signing in.
