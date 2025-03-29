@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                <title>Add Transaction</title>
+            </head>
+            <body style="background-color: #f0f4f8; font-family: monospace; text-align: center; padding: 20px;">
+                <h2 style="color: #2c3e50;">Add a New Transaction</h2>
+                <form action="/add_transaction" method="POST" style="background-color: ; padding: 20px; border-radius: 10px; display: inline-block; font-family: monospace;">
+                    <input name="amount" type="number" step="1" placeholder="Amount" style="margin: 5px; padding: 5px; font-family: monospace;"><br>
+                    <input name="category" type="text" placeholder="Category" style="margin: 5px; padding: 5px; font-family: monospace;"><br>
+                    <input name="date" type="date" placeholder="Date" style="margin: 5px; padding: 5px; font-family: monospace;"><br>
+                    <input name="type" type="text" placeholder="Type" style="margin: 5px; padding: 5px; font-family: monospace;"><br>
+                    <input name="description" type="text" placeholder="Description" style="margin: 5px; padding: 5px; font-family: monospace;"><br>
+                    <button type="submit" style="background-color: #2980b9; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-family: monospace;">Add Transaction</button>
+                </form>
+            </body>
+</html>
